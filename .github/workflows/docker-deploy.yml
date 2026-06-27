@@ -18,7 +18,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install flask
+        run: pip install flask pytest
 
       - name: Run tests
         run: python -m pytest test_app.py -v
