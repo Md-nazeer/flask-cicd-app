@@ -19,6 +19,9 @@ on every code commit using GitHub Actions.
 
 ## CI/CD Pipeline Stages
 - Checkout code
+- Set up Python
+- Install dependencies (Flask, Pytest)
+- Run automated unit tests
 - Login to Docker Hub
 - Build Docker image
 - Push image to Docker Hub
@@ -30,3 +33,5 @@ https://hub.docker.com/r/nazeer216/flask-cicd-app
 - app.py — Flask application
 - Dockerfile — Container configuration
 - .github/workflows/docker-deploy.yml — CI/CD pipeline
+
+
